@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Retino Team</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#1193d4",
+              "background-light": "#f6f7f8",
+              "background-dark": "#101c22",
+              "foreground-light": "#1f2937",
+              "foreground-dark": "#f9fafb",
+              "subtle-light": "#e5e7eb",
+              "subtle-dark": "#1f2937",
+              "card-light": "#ffffff",
+              "card-dark": "#1f2937",
+              "card-foreground-light": "#1f2937",
+              "card-foreground-dark": "#f9fafb",
+            },
+            fontFamily: {
+              "display": ["Inter", "sans-serif"]
+            },
+            borderRadius: {
+              "DEFAULT": "0.5rem",
+              "lg": "0.75rem",
+              "xl": "1rem",
+              "full": "9999px"
+            },
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="flex flex-col min-h-screen">
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center gap-4">
+<div class="w-8 h-8 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold text-gray-900 dark:text-white">Retino</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors" href="Home.html">Home</a>
+<a class="text-sm font-medium text-primary dark:text-primary" href="#">About Us</a>
+</nav>
+<div class="flex items-center gap-4">
+<a class="bg-primary text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-primary/90 transition-colors" href="#">Get Started</a>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<section class="py-16 sm:py-24">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-12">
+<h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white">Meet Our Team</h1>
+<p class="mt-4 max-w-2xl mx-auto text-lg text-gray-600 dark:text-gray-400">United by a passion for leveraging technology to save sight.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+<div class="bg-card-light dark:bg-card-dark rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 flex flex-col items-center text-center">
+<div class="relative w-32 h-32 mb-4">
+<div class="rounded-full w-full h-full object-cover bg-primary/10 flex items-center justify-center overflow-hidden">
+<img src="sangeeth.png" class="w-full h-full object-cover" alt="Sangeeth Shabu" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+<svg class="w-20 h-20 text-primary" style="display:none" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</div>
+<div class="absolute inset-0 rounded-full border-4 border-primary/20 dark:border-primary/30"></div>
+</div>
+<h3 class="text-lg font-bold text-card-foreground-light dark:text-card-foreground-dark">Sangeeth Shabu</h3>
+<div class="mt-2 mb-3 space-x-2">
+<span class="inline-block bg-primary/10 text-primary text-xs font-semibold px-2.5 py-0.5 rounded-full">Project Leader</span>
+<span class="inline-block bg-primary/10 text-primary text-xs font-semibold px-2.5 py-0.5 rounded-full">Prototype Builder</span>
+<span class="inline-block bg-primary/10 text-primary text-xs font-semibold px-2.5 py-0.5 rounded-full">Designer</span>
+</div>
+<p class="text-sm text-gray-500 dark:text-gray-400">As our project leader, Sangeeth spearheads the development of our prototypes and guides the overall design direction.</p>
+</div>
+<div class="bg-card-light dark:bg-card-dark rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 flex flex-col items-center text-center">
+<div class="relative w-32 h-32 mb-4">
+<div class="rounded-full w-full h-full object-cover bg-primary/10 flex items-center justify-center">
+<img src="" class="w-full h-full object-cover" alt="Sangeeth Shabu" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+<svg class="w-20 h-20 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</div>
+<div class="absolute inset-0 rounded-full border-4 border-primary/20 dark:border-primary/30"></div>
+</div>
+<h3 class="text-lg font-bold text-card-foreground-light dark:text-card-foreground-dark">Adith P Vibeesh</h3>
+<div class="mt-2 mb-3">
+<span class="inline-block bg-primary/10 text-primary text-xs font-semibold px-2.5 py-0.5 rounded-full">Data Expert</span>
+</div>
+<p class="text-sm text-gray-500 dark:text-gray-400">Adith is our data virtuoso, skillfully managing and analyzing all project-related information to drive our insights.</p>
+</div>
+<div class="bg-card-light dark:bg-card-dark rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 flex flex-col items-center text-center">
+<div class="relative w-32 h-32 mb-4">
+<div class="rounded-full w-full h-full object-cover bg-primary/10 flex items-center justify-center">
+<img src="" class="w-full h-full object-cover" alt="Sangeeth Shabu" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+<svg class="w-20 h-20 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</div>
+<div class="absolute inset-0 rounded-full border-4 border-primary/20 dark:border-primary/30"></div>
+</div>
+<h3 class="text-lg font-bold text-card-foreground-light dark:text-card-foreground-dark">Athira Gopi</h3>
+<div class="mt-2 mb-3">
+<span class="inline-block bg-primary/10 text-primary text-xs font-semibold px-2.5 py-0.5 rounded-full">Communication Leader</span>
+</div>
+<p class="text-sm text-gray-500 dark:text-gray-400">Athira excels in fostering seamless communication within the team and managing all external correspondence.</p>
+</div>
+<div class="bg-card-light dark:bg-card-dark rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 flex flex-col items-center text-center sm:col-start-auto lg:col-start-1 lg:col-span-1 xl:col-start-auto">
+<div class="relative w-32 h-32 mb-4">
+<div class="rounded-full w-full h-full object-cover bg-primary/10 flex items-center justify-center">
+<img src="Dev.png" class="w-full h-full object-cover" alt="Sangeeth Shabu" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+<svg class="w-20 h-20 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</div>
+<div class="absolute inset-0 rounded-full border-4 border-primary/20 dark:border-primary/30"></div>
+</div>
+<h3 class="text-lg font-bold text-card-foreground-light dark:text-card-foreground-dark">Dev Krishna</h3>
+<div class="mt-2 mb-3 space-x-2">
+<span class="inline-block bg-primary/10 text-primary text-xs font-semibold px-2.5 py-0.5 rounded-full">Tester</span>
+<span class="inline-block bg-primary/10 text-primary text-xs font-semibold px-2.5 py-0.5 rounded-full">Information Researcher</span>
+</div>
+<p class="text-sm text-gray-500 dark:text-gray-400">Dev is our meticulous tester and diligent researcher, ensuring our product's quality and staying ahead of the curve.</p>
+</div>
+<div class="bg-card-light dark:bg-card-dark rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 flex flex-col items-center text-center">
+<div class="relative w-32 h-32 mb-4">
+<div class="rounded-full w-full h-full object-cover bg-primary/10 flex items-center justify-center">
+<img src="sreehari.png" class="w-full h-full object-cover" alt="Sangeeth Shabu" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
+<svg class="w-20 h-20 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+</div>
+<div class="absolute inset-0 rounded-full border-4 border-primary/20 dark:border-primary/30"></div>
+</div>
+<h3 class="text-lg font-bold text-card-foreground-light dark:text-card-foreground-dark">Sreehari Sumesh</h3>
+<div class="mt-2 mb-3">
+<span class="inline-block bg-primary/10 text-primary text-xs font-semibold px-2.5 py-0.5 rounded-full">Video Producer</span>
+</div>
+<p class="text-sm text-gray-500 dark:text-gray-400">With a creative eye, Sreehari masterfully creates and edits all video content, bringing our project's story to life.</p>
+</div>
+</div>
+<div class="mt-16 bg-subtle-light dark:bg-subtle-dark rounded-lg p-8 text-center">
+<p class="text-lg text-gray-700 dark:text-gray-300">
+                    Our team is composed of leading experts in ophthalmology, artificial intelligence, and product development. We are united by a shared mission to improve access to quality eye care and prevent vision loss through early detection of diabetic retinopathy.
+                </p>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-background-light dark:bg-background-dark border-t border-subtle-light dark:border-subtle-dark">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+<div class="flex flex-col md:flex-row items-center justify-between">
+<p class="text-sm text-gray-500 dark:text-gray-400">© 2023 Retino. All rights reserved.</p>
+<div class="flex items-center gap-6 mt-4 md:mt-0">
+<a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="text-sm text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">Privacy Policy</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
